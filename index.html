@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./css/reset.css" rel="stylesheet" />
-    <link href="./css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <title>Leadconveer</title>
   </head>
   <body class="body">
@@ -15,7 +16,7 @@
             class="header__logo"
             src="./images/header-logo.svg"
             alt="Логотип шапки"
-          />
+          >
         </a>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -40,7 +41,7 @@
                       src="./icons/whatsapp-icon.svg"
                       alt="Whatsapp иконка"
                       aria-label="Написать в WhatsApp"
-                    />
+                    >
                   </a>
                 </li>
                 <li class="header__right-item">
@@ -50,7 +51,7 @@
                       src="./icons/telegram-icon.svg"
                       alt="Telegram иконка"
                       aria-label="Написать в Telegram"
-                    />
+                    >
                   </a>
                 </li>
                 <li class="header__right-item">
@@ -71,7 +72,7 @@
                   src="./icons/whatsapp-icon.svg"
                   alt="Whatsapp иконка"
                   aria-label="Написать в WhatsApp"
-                />
+                >
               </a>
             </li>
             <li class="header__right-item">
@@ -81,7 +82,7 @@
                   src="./icons/telegram-icon.svg"
                   alt="Telegram иконка"
                   aria-label="Написать в Telegram"
-                />
+                >
               </a>
             </li>
             <li class="header__right-item">
@@ -96,6 +97,7 @@
         </a>
       </div>
     </header>
+
     <section class="hero">
       <div class="container hero__container">
         <div class="hero__inner">
@@ -103,13 +105,14 @@
             <h1 class="hero__title"><span>Лидогенерация</span> для бизнеса</h1>
             <div class="hero__desc">
               <p class="hero__desc-text">
-                Покупайте только целевые лиды по фиксированной цене от 300&nbsp;₽
+                Покупайте только целевые лиды по фиксированной цене от
+                300&nbsp;₽
               </p>
               <img
                 class="hero__desc-icon"
                 src="./icons/money-icon.svg"
                 alt="Иконка эмодзи с деньгами"
-              />
+              >
             </div>
             <button class="hero__btn">Выбрать пакет лидов</button>
           </div>
@@ -117,7 +120,7 @@
             <img
               src="./images/header-img.webp"
               alt="Девушка с улыбкой печатает на ноутбуке"
-            />
+            >
           </div>
         </div>
         <ul class="hero__tabs">
@@ -125,12 +128,166 @@
           <li class="hero__tab">Биржа лидов</li>
           <li class="hero__tab">Сервис по Лидгену</li>
           <li class="hero__tab">Лиды для производства</li>
-          <li class="hero__tab">Клиенты
-             для бизнеса</li>
+          <li class="hero__tab">Клиенты для бизнеса</li>
           <li class="hero__tab">Определить телефон посетителя сайта</li>
         </ul>
       </div>
     </section>
+
+    <section class="steps">
+      <div class="container steps__container">
+        <div class="swiper">
+          <div class="swiper-wrapper slider-wrapper">
+            <div class="slider__slide slide swiper-slide">
+              <h5 class="slide__heading">Как это работает?</h5>
+              <div class="slide__inner slide__inner--first">
+                <div class="slide__info slide__info--first">
+                  <div class="slide__num">
+                    <span>01</span>
+                    <img
+                      class="slide__icon"
+                      src="./icons/slide-1-icon.svg"
+                      alt="Эмодзи человек за ноутбуком"
+                    >
+                  </div>
+                  <h4 class="slide__title slide__title--first">
+                    Регистрация и добавление проекта в систему
+                  </h4>
+                </div>
+                <ol class="slide__list">
+                  <li class="slide__item">
+                    Зарегистрируйтесь в нашем личном кабинете
+                  </li>
+                  <li class="slide__item">
+                    При добавление проекта вам необходимо указать URL (адрес)
+                    своего сайта
+                  </li>
+                  <li class="slide__item">
+                    Для вашего сайта будет сгенерирован уникальный код, который
+                    необходимо установить на свой сайт (в шаблоне сайта,
+                    перед тегом &lt;/head&gt;)
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="slider__slide slide swiper-slide">
+              <h5 class="slide__heading">Как это работает?</h5>
+              <div class="slide__inner">
+                <div class="slide__info">
+                  <div class="slide__num">
+                    <span>02</span>
+                    <img
+                      class="slide__icon"
+                      src="./icons/slide-2-icon.svg"
+                      alt="Эмодзи зелёная галочка"
+                    >
+                  </div>
+                  <h4 class="slide__title">Выбор пакета и количества Лидов</h4>
+                </div>
+                <div class="slide__desc">
+                  После добавления проекта в систему, вам необходимо выбрать
+                  тот пакет и количество Лидов, которое вам необходимо.
+                </div>
+              </div>
+            </div>
+            <div class="slider__slide slide swiper-slide">
+              <h5 class="slide__heading">Как это работает?</h5>
+              <div class="slide__inner">
+                <div class="slide__info">
+                  <div class="slide__num">
+                    <span>03</span>
+                    <img
+                      class="slide__icon"
+                      src="./icons/slide-3-icon.svg"
+                      alt="Эмодзи летающие деньги"
+                    >
+                  </div>
+                  <h4 class="slide__title">Оплата проекта</h4>
+                </div>
+                <div class="slide__desc">
+                  Оплатить Лидов вы сможете пластиковой картой или безналичным
+                  переводом.
+                </div>
+              </div>
+            </div>
+            <div class="slider__slide slide swiper-slide">
+              <h5 class="slide__heading">Как это работает?</h5>
+              <div class="slide__inner">
+                <div class="slide__info">
+                  <div class="slide__num">
+                    <span>04</span>
+                    <img
+                      class="slide__icon"
+                      src="./icons/slide-4-icon.svg"
+                      alt="Эмодзи замок"
+                    >
+                  </div>
+                  <h4 class="slide__title">Получение кода для сайта</h4>
+                </div>
+                <div class="slide__desc">
+                  После оплаты, система для вас сгенерирует код, который
+                  вам необходимо установить на свой сайт (в шаблоне сайта,
+                  перед тегом &lt;/head&gt;).
+                </div>
+              </div>
+            </div>
+            <div class="slider__slide slide swiper-slide">
+              <h5 class="slide__heading">Как это работает?</h5>
+              <div class="slide__inner">
+                <div class="slide__info">
+                  <div class="slide__num">
+                    <span>05</span>
+                    <img
+                      class="slide__icon"
+                      src="./icons/slide-5-icon.svg"
+                      alt="Эмодзи со звёздами в глазах"
+                    >
+                  </div>
+                  <h4 class="slide__title">Начало получения Лидов</h4>
+                </div>
+                <div class="slide__desc">
+                  В зависимости от вашей тематики (услуги или товара),
+                  а также объёма вашего трафика сайта система будет добавлять
+                  в личном кабинете контакты потенциальных клиентов,
+                  заинтересованных в вашей услуги и из вашего региона.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__copyright">
+          ©&nbsp;2025 Все права&nbsp;защищены. Технология «Лид Конвейер» -
+          лидогенерация для бизнеса.
+        </p>
+        <p class="footer__info">
+          ООО «ДС-ГРУПП» ИНН 7801355174 ОГРН&nbsp;1187847129425
+        </p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Блог</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Договор-оферта</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Политика конфиденциальности</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Соглашение об обработке данных</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Вход в личный кабинет</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

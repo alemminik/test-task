@@ -36,3 +36,20 @@ document.addEventListener('keydown', (event) => {
     document.body.classList.remove('body--opened-menu');
   }
 });
+
+// Slider
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+});

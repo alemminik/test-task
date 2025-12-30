@@ -1,5 +1,6 @@
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
   max-height: 82px;
   padding: 6px 0;
   background-color: var(--dark-grey);
@@ -141,6 +142,10 @@
 
 .burger-icon span::after {
   bottom: -8px;
+}
+
+.body--opened-menu {
+  overflow-y: hidden;
 }
 
 .body--opened-menu .burger-icon span {

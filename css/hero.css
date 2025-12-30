@@ -1,0 +1,123 @@
+.hero {
+  padding-top: 142px;
+  margin-top: -82px;
+  background-color: var(--light-grey);
+  border-radius: 0 0 40px 40px;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.hero__info {
+  max-width: 801px;
+}
+
+.hero__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.hero__title span {
+  color: var(--orange-juice);
+}
+
+.hero__desc {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.hero__desc-text {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 120%;
+  max-width: 525px;
+}
+
+.hero__desc-icon {
+  width: 72px;
+  height: 72px;
+}
+
+.hero__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  width: 100%;
+  height: 72px;
+  border-radius: 20px;
+  background: var(--orange-juice);
+  color: var(--white);
+  font-family: Kollektif, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero__img {
+  position: relative;
+  max-width: 791px;
+  margin-right: 60px;
+}
+
+.hero__img::before {
+  content: '';
+  position: absolute;
+  left: -4%;
+  bottom: 16%;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url('../icons/star-1-icon.svg');
+}
+
+.hero__img::after {
+  content: '';
+  position: absolute;
+  top: 21%;
+  right: -4%;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background: url('../icons/star-2-icon.svg');
+}
+
+.hero__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero__tabs {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.hero__tab {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  padding: 0 10px;
+  flex-basis: 280px;
+  flex-shrink: 1;
+  color: var(--grey);
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  background-color: var(--white);
+  border-radius: 30px 30px 0 0;
+  white-space: pre-line;
+}
