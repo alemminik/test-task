@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter 18pt Regular'), local('Inter18pt-Regular'),
+    url('../fonts/Inter18pt-Regular.woff2') format('woff2'),
+    url('../fonts/Inter18pt-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kollektif';
+  src: local('Kollektif Bold'), local('Kollektif-Bold'),
+    url('../fonts/Kollektif-Bold.woff2') format('woff2'),
+    url('../fonts/Kollektif-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* colors */
+  --grey: #808080;
+  --easy-grey: #c0c0c0;
+  --light-grey: #f6f6f6;
+  --dark-grey: #2d2d2d;
+  --white: #fff;
+  --orange-juice: #ff6600;
+
+  /* container */
+  --container-width: calc(1780px + 15px + 15px);
+
+  /* transition */
+  --transition: .4s;
+}
+
+html {
+  color: var(--dark-grey);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.000000" height="60.000000" fill="none" customFrame="#000000">
+	<defs>
+		<linearGradient id="paint_linear_0" x1="0" x2="60" y1="30" y2="30" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,102,0)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(242.25,102.383,88.825)" offset="0.273999929" stop-opacity="1" />
+			<stop stop-color="rgb(239.7,97.478,119.017)" offset="0.373999953" stop-opacity="1" />
+			<stop stop-color="rgb(229.5,93.33,151.245)" offset="0.483999938" stop-opacity="1" />
+			<stop stop-color="rgb(202.251,69.9833,209.95)" offset="0.713999927" stop-opacity="1" />
+			<stop stop-color="rgb(141.252,18.8862,249.05)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<path id="Star 1" d="M25.8157 0L35.1112 23.2318L60 25.8157L36.7682 35.1112L34.1843 60L24.8888 36.7682L0 34.1843L23.2318 24.8888L25.8157 0Z" fill="url(#paint_linear_0)" fill-rule="nonzero" />
+</svg>
