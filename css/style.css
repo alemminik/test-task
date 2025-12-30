@@ -3,6 +3,7 @@
 @import './media.css';
 
 .hero {
+  display: none;
   padding-top: 142px;
   margin-top: -82px;
   background-color: var(--light-grey);
